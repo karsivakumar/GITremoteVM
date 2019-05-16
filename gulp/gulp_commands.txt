@@ -1,0 +1,11 @@
+npm install gulp -gulp                  --> install gulp globally 
+npm -v gulp     or      gulp -v         --> version of gulp installed
+npm init                                --> creates a package.json file which initializes gulp and adds all the necessary content
+
+npm install                             --> digs through package.json file and install all the dependencies in the project from node package manager,
+                                            even if you delete the node_modules command, running the npm install command automatically installs them again
+                                            
+gulp.task                               --> runs the gulp task that is associated with the gulp code that is in gulpfile.js
+                                            The syntax would be <gulpvar>.task('<taskvar>',<function()>);
+                                            
+                                            Call this gulp task from outside the gulpfile by runningthe command "gulp <taskvar>" form the command line.

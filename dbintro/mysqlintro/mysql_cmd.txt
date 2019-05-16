@@ -1,0 +1,19 @@
+mysql-ctl start     --> starts up the instance of mysql database
+
+mysql-ctl stop      --> stops the instance of mysql database
+
+mysql-ctl cli       --> runs the mysql command level interface
+
+
+mysql credentials
+
+hostname : "$IP"
+root User: "sivakumarkarthik"
+password: ""
+Databasename: "c9"
+Port: 3306
+
+npm install mysql  --> isntalls the mysql driver (needed to run any queries with mysql)
+
+
+run sql commands from a mysql file over command line --> Source sqlfilename.sql

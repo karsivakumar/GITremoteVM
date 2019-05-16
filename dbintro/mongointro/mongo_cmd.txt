@@ -1,0 +1,11 @@
+stores mogodb data in the folder mongodbdat       --> echo 'mongod --bind_ip=$IP --dbpath=mongodbdat --nojournal --rest "$@"' > mongod
+provide access to system to run the mongod script --> chmod a+x mongod
+start mongodb by running the mongod script        --> ./mongod
+
+once started mongdb will start listening to mongodb commands on port 27017
+
+and connect to the database using the command 
+
+mongoose.connect('mongodb://localhost:27017/mongodbdat'); 
+
+where mongodbdat is the folder where we store the mongodb data
