@@ -8,4 +8,5 @@ npm install                             --> digs through package.json file and i
 gulp.task                               --> runs the gulp task that is associated with the gulp code that is in gulpfile.js
                                             The syntax would be <gulpvar>.task('<taskvar>',<function()>);
                                             
-                                            Call this gulp task from outside the gulpfile by runningthe command "gulp <taskvar>" form the command line.
+gulp taskname                           --> Call the gulp task created above from commandline  by runningthe command "gulp <taskvar>".
+
