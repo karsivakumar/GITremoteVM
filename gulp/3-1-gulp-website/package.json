@@ -9,10 +9,24 @@
   "author": "karthik",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
     "gulp": "^4.0.2",
-    "gulp-uglify": "^3.0.2"
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-headerfooter": "^1.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wrap": "^0.15.0",
+    "handlebars": "^4.1.2"
   },
   "dependencies": {
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^2.6.5",
     "static-server": "^2.0.0"
   }
 }

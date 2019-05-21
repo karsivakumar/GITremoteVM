@@ -10,3 +10,20 @@ gulp.task                               --> runs the gulp task that is associate
                                             
 gulp taskname                           --> Call the gulp task created above from commandline  by runningthe command "gulp <taskvar>".
 
+<gulptaskname>.src(folderpath)          --> takes in the source from a folder and passes to the next step in the function
+
+<gulptaskname>.dest(folderpath)         --> takes in the data from the previous step and passes to a folder
+
+var <gulptaskname> = require('gulp');       --> needed to run gulp
+var <gulpname> = require('gulp-uglify');    --> needed to run uglify
+
+
+----------------------
+
+differences from the course material
+
+1. after Version 4.0 gulp tasks do not autocomplete by themselves, completion
+has to be explicitly signaled from the task, usually done with a promise
+
+2. after version 4.0 gulp watch no longer accepts task names explicitly, but
+only functions as <gulpvarname>.series(taskname)
