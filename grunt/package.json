@@ -1,0 +1,20 @@
+{
+  "name": "grunt-exercise",
+  "version": "0.1.0",
+  "description": "exercises using grunt",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-footer": "~1.1.0",
+    "grunt-header": "~1.1.0",
+    "load-grunt-tasks" : "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

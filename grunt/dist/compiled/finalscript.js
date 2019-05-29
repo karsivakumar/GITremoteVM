@@ -1,0 +1,1 @@
+"use strict";require("./bar"),console.log("inside foo.js"),[1,2,3].map(function(a){return a+1}),console.log("inside bar.js");

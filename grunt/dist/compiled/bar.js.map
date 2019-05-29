@@ -1,0 +1,1 @@
+{"version":3,"sources":["../copiedfiles/bar.js"],"names":["console","log"],"mappings":";;AAAA;AAEAA,OAAO,CAACC,GAAR,CAAY,eAAZ","sourcesContent":["// this is bar.js\r\n\r\nconsole.log('inside bar.js');"],"file":"bar.js"}
